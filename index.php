@@ -1,4 +1,5 @@
-<?php 
+<?php
+session_start(); 
 $action = filter_input(INPUT_POST, 'action', FILTER_UNSAFE_RAW);
 $make = filter_input(INPUT_POST, 'make', FILTER_UNSAFE_RAW);
 $type = filter_input(INPUT_POST, 'type', FILTER_UNSAFE_RAW);
